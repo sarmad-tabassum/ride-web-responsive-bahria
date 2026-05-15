@@ -8,6 +8,7 @@
 body {
   background-color: #ebe9e977;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .navbar {
@@ -136,12 +137,11 @@ body {
   display: flex;
 }
 
-        /* x ------------------------------- x --------------------------------- x ----------------------------------------- x ----------------------------------------x */
+/* x ------------------------------- x --------------------------------- x ----------------------------------------- x ----------------------------------------x */
 
-                                                                                  /* Responsive */
+                                                                        /* Responsive */
 
-        /* x ------------------------------- x --------------------------------- x ----------------------------------------- x ----------------------------------------x */
-
+/* x ------------------------------- x --------------------------------- x ----------------------------------------- x ----------------------------------------x */
 
 @media (max-width: 767px) {
   body {
@@ -314,7 +314,7 @@ body {
     border-radius: 4.39px;
   }
 
-  /* Sectiom Three */
+  /* Section Three */
 
   .sec-three {
     margin-top: 44px !important;
@@ -488,5 +488,93 @@ body {
 
   .sec-five-card-content {
     gap: 15px !important;
+  }
+
+  /* Footer Styling */
+
+  .custom-footer {
+    padding: 60px 0 30px;
+    background-color: #fff;
+    color: #4f5665;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo {
+    max-width: 140px;
+    margin-bottom: 30px;
+  }
+
+  .download-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .btn-download {
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    width: 220px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .btn-download:hover {
+    color: #fff;
+    transform: scale(1.02);
+    background-color: #222;
+  }
+
+  .btn-download img {
+    width: 24px;
+    margin-right: 15px;
+  }
+
+  .btn-text {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .footer-heading {
+    color: #2d2d5e;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .footer-heading p {
+    font-size: 18px;
+    color: #8484a0;
+    margin-bottom: 8px;
+  }
+
+  .copyright-text {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #b0b0b0;
+  }
+
+  .footer-address-hide {
+    display: none;
+  }
+
+  .footer-address-1 {
+    order: 1;
   }
 }
